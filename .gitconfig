@@ -1,0 +1,10 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = alright21
+	email = alberto.giust@studenti.unitn.it
+[pull]
+	ff = only
+[alias]
+        logg    = log --graph --decorate --oneline --all
+        loggg   = log --graph --decorate --oneline --all --name-status
