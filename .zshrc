@@ -103,5 +103,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # ADD /home/alright/bin folder in the PATH
-PATH=$PATH:$HOME/bin:$HOME/go/bin
+PATH=$PATH:$HOME/.cargo/bin:$HOME/bin:$HOME/go/bin
 export PATH
+
+# aliases
+alias "c=xclip -selection clipboard"
