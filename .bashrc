@@ -136,5 +136,5 @@ fi
 # User added lines
 
 # ADD /home/alright/bin folder in the PATH
-PATH=$PATH:$HOME/bin
+PATH=$PATH:$HOME/bin:$HOME/go/bin
 export PATH
